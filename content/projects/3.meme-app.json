@@ -1,0 +1,8 @@
+{
+  "name": "Meme App",
+  "url": "https://github.com/Sharukhi/meme-app",
+  "description": "Meme App is a Flask-based web app that displays Reddit memes.",
+  "thumbnail": "/projects/meme.png",
+  "status": "Active",
+  "opensource": true
+}

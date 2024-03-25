@@ -1,6 +1,16 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "sharukhi.xyz",
+  "private": false,
+  "version": "0.0.1",
+  "author": {
+    "name": "Sharukhi",
+    "email": "sharukhi@sharukhi.xyz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharukhi/www.git"
+  },
+  "description": "My personal website",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -24,6 +34,7 @@
     "@iconify-json/lucide": "1.1.145",
     "@nuxt/image": "1.1.0",
     "@nuxt/ui": "2.11.1",
+    "postcss-custom-properties": "^13.3.6",
     "vue-use-fixed-header": "^2.0.0"
   }
 }

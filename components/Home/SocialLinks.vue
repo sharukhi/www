@@ -25,24 +25,26 @@
 <script lang="ts" setup>
 const links = [
   {
-    name: "Twitter",
-    url: "https://twitter.com/fayazara",
-    icon: "mdi:twitter",
-  },
-  {
     name: "GitHub",
-    url: "https://github.com/fayazara",
+    url: "https://github.com/sharukhi",
     icon: "mdi:github",
   },
   {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/in/fayaz-aralikatti/",
-    icon: "mdi:linkedin",
+    name: "Email",
+    url: "mailto:sharukhi@sharukhi.xyz",
+    icon: "mdi:email-outline",
   },
   {
-    name: "Telegram",
-    url: "https://t.me/fayazara",
-    icon: "mdi:telegram",
+    name: "Twitter",
+    url: "https://twitter.com/sharukhi_",
+    icon: "mdi:twitter",
   },
+
+  {
+    name: "Instagram",
+    url: "https://instagram.com/ataullah_sharukhi",
+    icon: "mdi:instagram",
+  },
+
 ];
 </script>

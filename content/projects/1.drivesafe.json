@@ -1,0 +1,8 @@
+{
+  "name": "DriveSafe",
+  "url": "https://github.com/Sharukhi/DriveSafe",
+  "description": "DriveSafe is a driver sleep detection and alerting system that uses Python and OpenCV to detect whether the driver is drowsy or not.",
+  "thumbnail": "/projects/drivesafe.png",
+  "status": "Active",
+  "opensource": true
+}

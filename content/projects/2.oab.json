@@ -1,0 +1,8 @@
+{
+  "name": "Obstacle avoiding robot",
+  "url": "https://github.com/Sharukhi/Obstacle-avoiding-robot",
+  "description": "Obstacle avoiding robot is an Arduino based project that uses ultrasonic sensors to detect objects in their path and then navigate around them.",
+  "thumbnail": "/projects/oab.png",
+  "status": "Active",
+  "opensource": true
+}
