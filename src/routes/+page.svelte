@@ -38,11 +38,11 @@
 	<Navbar />
 	
 	<section>
-		<h2 class="mb-8 text-lg font-semibold">Projects</h2>
+		<h2 class="semibold mb-8 text-lg font-semibold">Projects</h2>
 		<div class="space-y-8">
 			{#each projects as project}
 				<div>
-					<a href={project.url} class="font-semibold underline">
+					<a href={project.url} class="semibold font-semibold underline">
 						{project.name}
 					</a>
 					<p class="mt-2 text-gray-700 dark:text-gray-300">{project.description}</p>

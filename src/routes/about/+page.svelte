@@ -12,7 +12,7 @@
 	<section>
 		<div class="space-y-8">
 			<div>
-				<a href="/" class="font-semibold"> About </a>
+				<a href="/" class="semibold font-semibold"> About </a>
 				<p class="mt-2 text-gray-700 dark:text-gray-300">
           <p>Hello! I’m Sharukhi. Growing up, I taught myself how to do computer stuff and discovered that I really enjoy making things. That’s mostly it.
           Currently I’m mostly exploring this world of technology and working on my personal projects.
