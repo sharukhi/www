@@ -76,3 +76,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/font.ttf);
+}
+
+:root {
+  font-family: Roboto ,'Courier New', Courier, monospace;
+}

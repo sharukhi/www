@@ -36,6 +36,7 @@
 
 <div class="mx-auto max-w-3xl px-4 py-8">
 	<Navbar />
+	
 	<section>
 		<h2 class="mb-8 text-lg font-semibold">Projects</h2>
 		<div class="space-y-8">
@@ -49,4 +50,5 @@
 			{/each}
 		</div>
 	</section>
+
 </div>
