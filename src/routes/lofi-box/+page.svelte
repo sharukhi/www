@@ -88,6 +88,7 @@
 	<meta name="language" content="English" />
 	<meta name="author" content="Sharukhi" />
 	<link rel="shortcut icon" href="/projects/lofi-box/logo.png" type="image/x-icon" />
+	<title>Lofi-Box | Focus with lofi Beats</title>
 	<!-- Primary Meta Tags -->
 
 	<meta name="title" content="Sharukhi – sharukhi.xyz" />
@@ -107,6 +108,8 @@
 	<meta property="twitter:description" content="sharukhi.xyz" />
 	<meta property="twitter:image" content="https://sharukhi.xyz/og.png" />
 </svelte:head>
+
+
 
 <main class="min-h-screen bg-white font-sans text-gray-900">
 	<header class="container mx-auto px-4 py-6">
