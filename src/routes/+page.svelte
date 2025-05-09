@@ -3,6 +3,12 @@
 
 	const projects = [
 		{
+			name: 'Ethereal',
+			url: 'https://www.etherealbd.com/',
+			description:
+				'Etherealbd is a hybrid e-commerce platform that combines a fast, static frontend built with Next.js and a dynamic backend powered by WordPress and WooCommerce. Designed for efficiency, it delivers a smooth and responsive shopping experience.'
+		},
+		{
 			name: 'Lofi-Box',
 			url: 'https://github.com/sharukhi/lofi-box',
 			description:
@@ -30,13 +36,12 @@
 </script>
 
 <svelte:head>
-  <title>Home | Sharukhi</title>
+	<title>Home | Sharukhi</title>
 </svelte:head>
-
 
 <div class="mx-auto max-w-3xl px-4 py-8">
 	<Navbar />
-	
+
 	<section>
 		<h2 class="semibold mb-8 text-lg font-semibold">Projects</h2>
 		<div class="space-y-8">
@@ -50,5 +55,4 @@
 			{/each}
 		</div>
 	</section>
-
 </div>

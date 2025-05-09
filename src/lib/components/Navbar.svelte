@@ -5,10 +5,10 @@
   <nav>
     <ul class="flex gap-4">
       <li>
-        <a href="/">home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a href="/about">about</a>
+        <a href="/about">About</a>
       </li>
     </ul>
   </nav>
