@@ -22,10 +22,23 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "About"
-        name: "about"
-        file: "content/pages/about.md"
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Projects"
+        name: "projects"
+        file: "content/projects.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
