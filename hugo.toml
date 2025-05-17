@@ -1,8 +1,8 @@
 baseURL = "https://sharukhi.net"
 theme = 'hugo-bearblog'
 title = "Sharukhi"
-author = "Jane Doe"
-copyright = "Copyright © 2020, Jane Doe."
+author = "Sharukhi"
+copyright = "Copyright © Sharukhi."
 languageCode = "en-US"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
@@ -12,8 +12,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   tags = "/blog/:slug"
 [params]
   description = "Sharukhi"
-  favicon = "images/favicon.png"
-  images = ["images/share.png"]
+  favicon = "images/favicon.ico"
+  images = ["images/og.png"]
   title = "Sharukhi"
 [markup]
   [markup.highlight]
