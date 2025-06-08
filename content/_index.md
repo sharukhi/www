@@ -9,11 +9,11 @@ If you’d like to connect or just say hi, feel free to reach out on social medi
 
 ### Recent Projects
 
-* [Etherealbd](https://www.etherealbd.com/)
-* [Lofi-Box](https://github.com/sharukhi/lofi-box)
-* [Khobor](https://github.com/sharukhi/khobor)
-* [DriveSafe](https://github.com/sharukhi/drivesafe)
-* [Object Avoiding Bot](https://github.com/sharukhi/oab)
+* **[Etherealbd](https://www.etherealbd.com/)** – A hybrid e-commerce platform using Next.js and WordPress for a fast, responsive shopping experience.
+* **[Lofi-Box](https://github.com/sharukhi/lofi-box)** – A lightweight Browser extension streaming ambient lo-fi music to boost focus while you work or study.
+* **[Khobor](https://github.com/sharukhi/khobor)** – A clean, clutter-free news app delivering concise updates on happenings in Bangladesh.
+* **[DriveSafe](https://github.com/sharukhi/drivesafe)** – A Python-based system using computer vision to detect driver fatigue and prevent road accidents.
+* **[Object Avoiding Bot](https://github.com/sharukhi/oab)** – A simple Arduino-powered robot that detects and avoids obstacles in real-time.
 
 ### Socials
 
