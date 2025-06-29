@@ -1,0 +1,75 @@
+---
+import GitHub from "./icons/GitHub.astro"
+import Link from "./icons/Link.astro"
+import LinkButton from "./LinkButton.astro"
+
+
+const PROJECTS = [
+  {
+    title: "Khobor – a simple news app for Bangladesh.",
+    description:
+      "Khobor is a minimalist news app bringing you the latest updates from Bangladesh—fast, focused, and free of clutter. Stay informed without the noise.",
+    link: "https://khobor.sharukhi.net",
+    github: "https://github.com/sharukhi/khobor",
+    image: "/projects/khobor.png"
+  },
+    {
+    title: "Lofi-Box – a chrome extension for lo-fi music",
+    description:
+      "Lofi-Box is a lightweight Chrome extension that streams calming lo-fi beats to help you focus while working, studying, or browsing.",
+    link: "https://chromewebstore.google.com/detail/lofi-box/fbogegnhfhlbdjjhompihcgcenhdclhj",
+    github: "https://github.com/sharukhi/lofi-box",
+    image: "/projects/lofi.png"
+  },
+      {
+    title: "DriveSafe – Real-Time Drowsiness Detection for Drivers",
+    description:
+      "DriveSafe uses computer vision to detect driver fatigue and sends instant alerts to help prevent accidents. Built with Python for real-time safety.",
+    github: "https://github.com/sharukhi/drivesafe",
+    image: "/projects/drivesafe.png"
+  }
+]
+---
+
+<div class="flex flex-col gap-y-16">
+  {
+    PROJECTS.map(({ image, title, description, link, github }) => (
+    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+  <div class="w-full md:w-1/2">
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+    </div>
+  </div>
+
+  <div class="w-full md:w-1/2 md:max-w-lg">
+    <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+      {title}
+    </h3>
+    <div class="flex flex-wrap mt-2">
+
+
+      <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
+      <footer class="flex items-end justify-start mt-4 gap-x-4">
+          {github && (
+            <LinkButton href={github} target="_blank">
+              <GitHub class="size-6" />
+              Code
+              
+            </LinkButton>
+          )}
+          {link && (
+            <LinkButton href={link} target="_blank" >
+              <Link class="size-4" />
+              Preview
+            </LinkButton>
+          )}
+        </footer>
+    </div>
+  </div>
+</article>
+    ))
+  }
+</div>
+
+
+
